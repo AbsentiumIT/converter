@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+input {
+    height: 3vh;
+    margin: 40px 0;
+}
+label, button {
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 5px;
+    letter-spacing: 1.3px;
+}
+label:hover, button:hover{
+    background-color: #fff;
+    color: #000;
+}
+button {
+    background-color: transparent;
+}
+#container {
+    background-color: rgb(114, 96, 35);
+    padding: 40px 40px 60px 40px;
+    width: 22%;
+}
+#container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#value-container {
+    display: inherit;
+    margin-top: 30px;
+}
+#value-container div {
+    text-align: center;
+}
+#value-container div:first-child {
+    margin-right: 30px;
+}
